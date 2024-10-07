@@ -52,7 +52,7 @@ export default function Settings() {
           <Fragment>
             {isPTag ? (
               <p className="mb-2 max-w-2xl text-lg font-light text-foreground">
-                <span className="font-bold">Organization name:</span>{' '}
+                <span className="font-bold">Organization Name:</span>{' '}
                 {organizationNameUpdate}
               </p>
             ) : (
@@ -130,7 +130,7 @@ export default function Settings() {
               Test Account Info
             </Button>
             <Button className="mt-2 flex w-32 flex-col" variant="secondary">
-              Contact us
+              Contact Us
             </Button>
           </div>
           <div className="mb-8 mt-10">
